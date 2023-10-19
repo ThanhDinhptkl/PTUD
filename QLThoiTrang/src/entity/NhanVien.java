@@ -1,5 +1,6 @@
 package entity;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 //import java.sql.Date;
 
@@ -7,7 +8,7 @@ public class NhanVien {
 	private String maNV;
 	private String tenNV;
 	private Date ngaySinh;
-	private Boolean gioiTinh;
+	private boolean gioiTinh;
 	private String sDT;
 	private String diaChi;
 	private String email;
@@ -15,7 +16,7 @@ public class NhanVien {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public NhanVien(String maNV, String tenNV, Date ngaySinh, Boolean gioiTinh, String sDT, String diaChi,
+	public NhanVien(String maNV, String tenNV, Date ngaySinh, boolean gioiTinh, String sDT, String diaChi,
 			String email) {
 		super();
 		this.maNV = maNV;
@@ -26,7 +27,7 @@ public class NhanVien {
 		this.diaChi = diaChi;
 		this.email = email;
 	}
-	public String getMaNV() {
+	public	String getMaNV() {
 		return maNV;
 	}
 	public void setMaNV(String maNV) {
@@ -44,10 +45,10 @@ public class NhanVien {
 	public void setNgaySinh(Date ngaySinh) {
 		this.ngaySinh = ngaySinh;
 	}
-	public Boolean getGioiTinh() {
+	public boolean isGioiTinh() {
 		return gioiTinh;
 	}
-	public void setGioiTinh(Boolean gioiTinh) {
+	public void setGioiTinh(boolean gioiTinh) {
 		this.gioiTinh = gioiTinh;
 	}
 	public String getsDT() {
@@ -68,11 +69,16 @@ public class NhanVien {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public String getFormattedNgaySinh() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        return dateFormat.format(ngaySinh);
+    }
 	@Override
 	public String toString() {
-		return "NhanVien [maNV=" + maNV + ", tenNV=" + tenNV + ", ngaySinh=" + ngaySinh + ", gioiTinh=" + gioiTinh
+		return "NhanVien [maNV=" + maNV + ", tenNV=" + tenNV + ", ngaySinh=" + getFormattedNgaySinh() + ", gioiTinh=" + gioiTinh
 				+ ", sDT=" + sDT + ", diaChi=" + diaChi + ", email=" + email + "]";
 	}
+	
 	
 	
 }

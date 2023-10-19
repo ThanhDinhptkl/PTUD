@@ -168,8 +168,10 @@ public class DAO_NhanVien implements I_NhanVien {
 			
 			sta.setString(1, nv.getMaNV());
 			sta.setString(2, nv.getTenNV());
-			sta.setDate(3, (Date) nv.getNgaySinh());
-			sta.setBoolean(4, nv.getGioiTinh());
+			Date ngaySinhSql = new Date(nv.getNgaySinh().getTime());
+			sta.setDate(3, ngaySinhSql);
+//			sta.setDate(3, (Date) nv.getNgaySinh());
+			sta.setBoolean(4, nv.isGioiTinh());
 			sta.setString(5, nv.getsDT());
 			sta.setString(6, nv.getDiaChi());
 			sta.setString(7, nv.getEmail());
@@ -201,7 +203,7 @@ public class DAO_NhanVien implements I_NhanVien {
 			
 			sta.setString(1, nv.getTenNV());
 			sta.setDate(2, (Date) nv.getNgaySinh());
-			sta.setBoolean(3, nv.getGioiTinh());
+			sta.setBoolean(3, nv.isGioiTinh());
 			sta.setString(4, nv.getsDT());
 			sta.setString(5, nv.getDiaChi());
 			sta.setString(6, nv.getEmail());

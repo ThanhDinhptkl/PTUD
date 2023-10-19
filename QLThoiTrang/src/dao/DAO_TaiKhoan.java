@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 import connectDB.ConnectDB;
-import entity.TaiKhoan1;
+import entity.TaiKhoan;
 import interfaces.I_TaiKhoan;
 
 public class DAO_TaiKhoan implements I_TaiKhoan{
@@ -17,8 +17,8 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 	
 	}
 	@Override
-	public ArrayList<TaiKhoan1> getAllTaiKhoan(){
-		ArrayList<TaiKhoan1> dsTK = new ArrayList<TaiKhoan1>();
+	public ArrayList<TaiKhoan> getAllTaiKhoan(){
+		ArrayList<TaiKhoan> dsTK = new ArrayList<TaiKhoan>();
 		
 		try {
 			ConnectDB.getInstance();
@@ -33,7 +33,7 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 				String matKhau = rs.getString("MATKHAU");
 				String quyen = rs.getString("PHANQUYEN");
 				
-				TaiKhoan1 tk = new TaiKhoan1(maDN, matKhau, quyen);
+				TaiKhoan tk = new TaiKhoan(maDN, matKhau, quyen);
 				dsTK.add(tk);
 			}
 		} catch (SQLException e) {
@@ -43,8 +43,8 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 		return dsTK;
 	}
 	@Override
-	public TaiKhoan1 getTheoMaTK (String maTK) {
-		TaiKhoan1 tk = null;
+	public TaiKhoan getTheoMaTK (String maTK) {
+		TaiKhoan tk = null;
 		PreparedStatement sta = null;
 		try {
 			ConnectDB.getInstance();
@@ -58,7 +58,7 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 				String matKhau = rs.getString("MATKHAU");
 				String quyen = rs.getString("PHANQUYEN");
 				
-				tk = new TaiKhoan1(maDN, matKhau, quyen);
+				tk = new TaiKhoan(maDN, matKhau, quyen);
 			}
 		} catch (SQLException e) {
 			// TODO: handle exception
@@ -76,7 +76,7 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 		return tk;
 	}
 	@Override
-	public boolean them(TaiKhoan1 tk) {
+	public boolean them(TaiKhoan tk) {
 		PreparedStatement sta = null;
 		int n = 0;
 		try {
@@ -104,7 +104,7 @@ public class DAO_TaiKhoan implements I_TaiKhoan{
 		return n > 0;
 	}
 	@Override
-	public boolean sua(TaiKhoan1 tk) {
+	public boolean sua(TaiKhoan tk) {
 		PreparedStatement sta = null;
 		int n = 0;
 		try {
