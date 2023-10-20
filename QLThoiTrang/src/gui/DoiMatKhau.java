@@ -42,27 +42,27 @@ public class DoiMatKhau extends javax.swing.JFrame {
         setResizable(false);
 
         lb_matKhauCu.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
-        lb_matKhauCu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/khoa.png"))); // NOI18N
+        lb_matKhauCu.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\khoa.png")); // NOI18N
         lb_matKhauCu.setText("Mật Khẩu Cũ :");
 
         lb_matKhauMoi.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
-        lb_matKhauMoi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/khoa1.png"))); // NOI18N
+        lb_matKhauMoi.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\khoa1.png")); // NOI18N
         lb_matKhauMoi.setText("Mật Khẩu Mới :");
 
         lb_xacNhanLaiMatKhau.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
-        lb_xacNhanLaiMatKhau.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/khoa1.png"))); // NOI18N
+        lb_xacNhanLaiMatKhau.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\khoa1.png")); // NOI18N
         lb_xacNhanLaiMatKhau.setText("Xác Nhận Lại Mật Khẩu :");
 
         btn_huyBo.setBackground(new java.awt.Color(255, 204, 204));
         btn_huyBo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btn_huyBo.setForeground(new java.awt.Color(153, 0, 255));
-        btn_huyBo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/No.png"))); // NOI18N
+        btn_huyBo.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\No.png" )); // NOI18N
         btn_huyBo.setText("Hủy Bỏ");
 
         btn_dongY.setBackground(new java.awt.Color(153, 255, 153));
         btn_dongY.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btn_dongY.setForeground(new java.awt.Color(102, 0, 102));
-        btn_dongY.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Yes.png"))); // NOI18N
+        btn_dongY.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\Yes.png")); // NOI18N
         btn_dongY.setText("Đồng Ý");
 
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
