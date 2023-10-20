@@ -249,7 +249,7 @@ public class TimKiemNhanVien extends javax.swing.JFrame {
 
         cmb_gioiTinh.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nam", "Nữ" }));
 
-        btn_date.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_date.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
         btn_date.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_dateActionPerformed(evt);
@@ -257,7 +257,7 @@ public class TimKiemNhanVien extends javax.swing.JFrame {
         });
 
         btn_timKiemNV.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_timKiemNV.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/find.png"))); // NOI18N
+        btn_timKiemNV.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
         btn_timKiemNV.setText("Tìm Kiếm Nhân Viên");
         btn_timKiemNV.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
