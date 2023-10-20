@@ -218,7 +218,7 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        btn_ranDom.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Random.png"))); // NOI18N
+        btn_ranDom.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\Random.png")); // NOI18N
         btn_ranDom.setText("Random");
         btn_ranDom.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,14 +227,14 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
         });
 
         btn_sua.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btn_sua.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/support.png"))); // NOI18N
+        btn_sua.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\support.png")); // NOI18N
         btn_sua.setText("Sửa");
 
         lb_maKhuyenMai.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         lb_maKhuyenMai.setText("Mã Khuyến Mãi");
 
         btn_xoa.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btn_xoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/delete.png"))); // NOI18N
+        btn_xoa.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\delete.png")); // NOI18N
         btn_xoa.setText("Xóa");
         btn_xoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,7 +243,7 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
         });
 
         btn_them.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btn_them.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
+        btn_them.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\add.png")); // NOI18N
         btn_them.setText("Thêm");
 
         lb_mucGiamGia.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -261,7 +261,7 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
         lb_thoiGianKetThuc.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         lb_thoiGianKetThuc.setText("Thời Gian Kết Thúc");
 
-        btn_ngayBatDau.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_ngayBatDau.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
         btn_ngayBatDau.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_ngayBatDauActionPerformed(evt);
@@ -272,10 +272,10 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
         lb_quanLyKhuyenMai.setForeground(new java.awt.Color(102, 102, 0));
         lb_quanLyKhuyenMai.setText("Quản Lý Khuyến Mãi");
 
-        btn_ngayKetThuc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_ngayKetThuc.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
 
         btn_luu.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btn_luu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/save.png"))); // NOI18N
+        btn_luu.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\save.png")); // NOI18N
         btn_luu.setText("Lưu");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
