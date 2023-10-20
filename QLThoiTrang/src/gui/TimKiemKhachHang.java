@@ -173,7 +173,7 @@ public class TimKiemKhachHang extends javax.swing.JFrame {
 
         btn_timKiemKhachHang.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_timKiemKhachHang.setForeground(new java.awt.Color(153, 102, 0));
-        btn_timKiemKhachHang.setIcon(new javax.swing.ImageIcon("D:\\\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
+        btn_timKiemKhachHang.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
         btn_timKiemKhachHang.setText("Tìm Kiếm Khách Hàng");
         btn_timKiemKhachHang.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
