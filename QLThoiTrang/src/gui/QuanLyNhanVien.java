@@ -234,7 +234,7 @@ public class QuanLyNhanVien extends JFrame implements ActionListener {
         lbl_email.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         lbl_email.setText("Email:");
 
-        btn_random.setIcon(new ImageIcon(getClass().getResource("/icon/Random.png"))); // NOI18N
+        btn_random.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\Random.png")); // NOI18N
         btn_random.setText("Random");
         btn_random.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -244,7 +244,7 @@ public class QuanLyNhanVien extends JFrame implements ActionListener {
 
         cmb_gioiTinh.setModel(new DefaultComboBoxModel<>(new String[] { "Nam", "Nữ" }));
 
-        btn_date.setIcon(new ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_date.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
         btn_date.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_dateActionPerformed(evt);
@@ -252,15 +252,15 @@ public class QuanLyNhanVien extends JFrame implements ActionListener {
         });
 
         btn_them.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_them.setIcon(new ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
+        btn_them.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\add.png")); // NOI18N
         btn_them.setText("Thêm");
 
         btn_sua.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_sua.setIcon(new ImageIcon(getClass().getResource("/icon/fix.png"))); // NOI18N
+        btn_sua.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\fix.png")); // NOI18N
         btn_sua.setText("Sửa");
 
         btn_xoa.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_xoa.setIcon(new ImageIcon(getClass().getResource("/icon/delete.png"))); // NOI18N
+        btn_xoa.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\delete.png")); // NOI18N
         btn_xoa.setText("Xóa");
         btn_xoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -269,7 +269,7 @@ public class QuanLyNhanVien extends JFrame implements ActionListener {
         });
 
         btn_luu.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_luu.setIcon(new ImageIcon(getClass().getResource("/icon/save.png"))); // NOI18N
+        btn_luu.setIcon(new ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\save.png")); // NOI18N
         btn_luu.setText("Lưu");
 
         GroupLayout pn_RightLayout = new GroupLayout(pn_Right);
