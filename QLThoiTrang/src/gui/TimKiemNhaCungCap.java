@@ -202,7 +202,7 @@ public class TimKiemNhaCungCap extends javax.swing.JFrame {
 
         btn_timKiemNhaCungCap.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_timKiemNhaCungCap.setForeground(new java.awt.Color(153, 102, 0));
-        btn_timKiemNhaCungCap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/find.png"))); // NOI18N
+        btn_timKiemNhaCungCap.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
         btn_timKiemNhaCungCap.setText("Tìm Kiếm Nhà Cung Cấp");
         btn_timKiemNhaCungCap.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
