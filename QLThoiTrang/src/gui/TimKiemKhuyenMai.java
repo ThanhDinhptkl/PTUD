@@ -232,7 +232,7 @@ public class TimKiemKhuyenMai extends javax.swing.JFrame {
         lb_thoiGianKetThuc.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         lb_thoiGianKetThuc.setText("Thời Gian Kết Thúc");
 
-        btn_ngayBatDau.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_ngayBatDau.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
         btn_ngayBatDau.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_ngayBatDauActionPerformed(evt);
@@ -243,11 +243,11 @@ public class TimKiemKhuyenMai extends javax.swing.JFrame {
         lb_quanLyKhuyenMai.setForeground(new java.awt.Color(102, 102, 0));
         lb_quanLyKhuyenMai.setText("Quản Lý Khuyến Mãi");
 
-        btn_ngayKetThuc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_ngayKetThuc.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
 
         btn_timKiemKhuyenMai.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_timKiemKhuyenMai.setForeground(new java.awt.Color(153, 102, 0));
-        btn_timKiemKhuyenMai.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/find.png"))); // NOI18N
+        btn_timKiemKhuyenMai.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
         btn_timKiemKhuyenMai.setText("Tìm Kiếm Khuyến Mãi");
         btn_timKiemKhuyenMai.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
