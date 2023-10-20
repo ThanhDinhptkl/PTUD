@@ -256,7 +256,7 @@ public class TimKiemSanPham extends javax.swing.JFrame {
 
         btn_timKiemSanPham.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_timKiemSanPham.setForeground(new java.awt.Color(153, 102, 0));
-        btn_timKiemSanPham.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/find.png"))); // NOI18N
+        btn_timKiemSanPham.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\find.png")); // NOI18N
         btn_timKiemSanPham.setText("Tìm Kiếm Sản Phẩm");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
