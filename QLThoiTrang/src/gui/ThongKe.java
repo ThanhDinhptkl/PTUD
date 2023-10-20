@@ -181,7 +181,7 @@ public class ThongKe extends javax.swing.JFrame {
         rad_cot.setText("Dạng Cột");
 
         btn_thongKe.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_thongKe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/analytics.png"))); // NOI18N
+        btn_thongKe.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\analytics.png")); // NOI18N
         btn_thongKe.setText("Thống Kê Doanh Thu");
         btn_thongKe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
