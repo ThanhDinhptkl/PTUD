@@ -306,11 +306,11 @@ public class QuanLyKho extends javax.swing.JFrame {
         lbl_nhapHang.setText("Nhập Hàng");
 
         btn_taoDanhSach.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_taoDanhSach.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
+        btn_taoDanhSach.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\add.png")); // NOI18N
         btn_taoDanhSach.setText("Tạo Danh Sách");
 
         btn_xuatDanhSachNhap.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_xuatDanhSachNhap.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/print.png"))); // NOI18N
+        btn_xuatDanhSachNhap.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\print.png")); // NOI18N
         btn_xuatDanhSachNhap.setText("Xuất Danh Sách Nhập Hàng");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
