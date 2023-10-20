@@ -269,15 +269,15 @@ public class DatHang extends javax.swing.JFrame {
         lbl_taoPhieuDH.setText("Tạo Phiếu Đặt Hàng");
 
         btn_taoHD.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_taoHD.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/pay.png"))); // NOI18N
+        btn_taoHD.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\pay.png")); // NOI18N
         btn_taoHD.setText("Tạo Hóa Đơn");
 
         btn_xuatPhieuDat.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_xuatPhieuDat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/print.png"))); // NOI18N
+        btn_xuatPhieuDat.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\print.png")); // NOI18N
         btn_xuatPhieuDat.setText("Xuất Phiếu Đặt Hàng");
 
         btn_taoPhieuDat.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        btn_taoPhieuDat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
+        btn_taoPhieuDat.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\add.png")); // NOI18N
         btn_taoPhieuDat.setText("Tạo Phiếu Đặt Hàng");
         btn_taoPhieuDat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -285,7 +285,7 @@ public class DatHang extends javax.swing.JFrame {
             }
         });
 
-        btn_random.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/Random.png"))); // NOI18N
+        btn_random.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\Random.png")); // NOI18N
         btn_random.setText("Random");
         btn_random.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -333,7 +333,7 @@ public class DatHang extends javax.swing.JFrame {
             }
         });
 
-        btn_date.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/date.png"))); // NOI18N
+        btn_date.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\date.png")); // NOI18N
         btn_date.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_dateActionPerformed(evt);
