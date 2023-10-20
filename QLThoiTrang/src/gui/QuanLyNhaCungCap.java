@@ -206,12 +206,12 @@ public class QuanLyNhaCungCap extends javax.swing.JFrame {
 
         btn_them.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_them.setForeground(new java.awt.Color(102, 102, 0));
-        btn_them.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/add.png"))); // NOI18N
+        btn_them.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\add.png")); // NOI18N
         btn_them.setText("Thêm");
 
         btn_luu.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_luu.setForeground(new java.awt.Color(102, 102, 0));
-        btn_luu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/save.png"))); // NOI18N
+        btn_luu.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\save.png")); // NOI18N
         btn_luu.setText("Lưu");
         btn_luu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,17 +221,17 @@ public class QuanLyNhaCungCap extends javax.swing.JFrame {
 
         btn_sua.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_sua.setForeground(new java.awt.Color(102, 102, 0));
-        btn_sua.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/support.png"))); // NOI18N
+        btn_sua.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\support.png")); // NOI18N
         btn_sua.setText("Sửa");
 
         btn_sapXep.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_sapXep.setForeground(new java.awt.Color(102, 102, 0));
-        btn_sapXep.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/sort.png"))); // NOI18N
+        btn_sapXep.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\sort.png")); // NOI18N
         btn_sapXep.setText("Sắp Xếp");
 
         btn_xoa.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         btn_xoa.setForeground(new java.awt.Color(102, 102, 0));
-        btn_xoa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/delete.png"))); // NOI18N
+        btn_xoa.setIcon(new javax.swing.ImageIcon("D:\\Nhom18_PTUD_DoAn\\QLThoiTrang\\icon\\delete.png")); // NOI18N
         btn_xoa.setText("Xóa");
         btn_xoa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
