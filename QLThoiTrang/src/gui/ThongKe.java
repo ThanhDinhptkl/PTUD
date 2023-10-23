@@ -15,6 +15,8 @@ public class ThongKe extends javax.swing.JFrame {
      */
     public ThongKe() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

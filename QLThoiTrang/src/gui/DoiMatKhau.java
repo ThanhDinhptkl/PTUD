@@ -15,6 +15,8 @@ public class DoiMatKhau extends javax.swing.JFrame {
      */
     public DoiMatKhau() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

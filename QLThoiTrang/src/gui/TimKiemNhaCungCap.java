@@ -15,6 +15,8 @@ public class TimKiemNhaCungCap extends javax.swing.JFrame {
      */
     public TimKiemNhaCungCap() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

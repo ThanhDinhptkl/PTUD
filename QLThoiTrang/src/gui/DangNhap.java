@@ -195,7 +195,7 @@ public class DangNhap extends JFrame implements ActionListener {
 					if(tk.getPhanQuyen().equalsIgnoreCase("NhanVienQuanLy")) {
 						trangChu.setVisible(true);
 						trangChu.menu_quanLyKhuyenMai.setVisible(false);
-						
+						 
 						return true;
 					}else {
 						trangChu.setVisible(true);

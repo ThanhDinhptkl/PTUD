@@ -15,6 +15,8 @@ public class QuanLyKhuyenMai extends javax.swing.JFrame {
      */
     public QuanLyKhuyenMai() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

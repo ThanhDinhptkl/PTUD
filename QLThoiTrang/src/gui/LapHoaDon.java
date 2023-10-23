@@ -15,6 +15,8 @@ public class LapHoaDon extends javax.swing.JFrame {
      */
     public LapHoaDon() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

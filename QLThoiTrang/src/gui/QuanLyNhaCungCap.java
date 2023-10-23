@@ -15,6 +15,8 @@ public class QuanLyNhaCungCap extends javax.swing.JFrame {
      */
     public QuanLyNhaCungCap() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

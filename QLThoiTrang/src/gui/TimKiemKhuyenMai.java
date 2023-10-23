@@ -15,6 +15,8 @@ public class TimKiemKhuyenMai extends javax.swing.JFrame {
      */
     public TimKiemKhuyenMai() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

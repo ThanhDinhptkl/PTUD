@@ -15,6 +15,8 @@ public class QuanLyKho extends javax.swing.JFrame {
      */
     public QuanLyKho() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

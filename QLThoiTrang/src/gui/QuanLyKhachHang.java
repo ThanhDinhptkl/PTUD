@@ -15,6 +15,8 @@ public class QuanLyKhachHang extends javax.swing.JFrame {
      */
     public QuanLyKhachHang() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

@@ -15,6 +15,8 @@ public class TimKiemKhachHang extends javax.swing.JFrame {
      */
     public TimKiemKhachHang() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**

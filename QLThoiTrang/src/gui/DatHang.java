@@ -15,6 +15,8 @@ public class DatHang extends javax.swing.JFrame {
      */
     public DatHang() {
         initComponents();
+        setResizable(false);
+        setLocationRelativeTo(null);
     }
 
     /**
